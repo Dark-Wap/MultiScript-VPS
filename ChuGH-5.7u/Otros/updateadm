@@ -167,7 +167,7 @@ msg -bar
 echo -e "$barra"
 echo -e "\033[92m        -- INSTALANDO PAQUETES AÑADIDOS -- "
 echo -e "$barra"
-wget -q -O /bin/ejecutar/msg  https://raw.githubusercontent.com/NetVPS/Multi-Script/main/ChuGH-5.7u/Otros/msg
+wget -q -O /bin/ejecutar/msg  https://raw.githubusercontent.com/Dark-Wap/MultiScript-VPS/refs/heads/main/ChuGH-5.7u/Otros/msg
 #echo -ne "\033[97m  # REPACK PYTHON APT    .................... " 
 #[[ $(dpkg --get-selections|grep -w "python3-apt"|head -1) ]] && sudo apt remove python3-apt -y &>/dev/null
 #[[ $(dpkg --get-selections|grep -w "python3-apt"|head -1) ]] || sudo apt install python3-apt -y &>/dev/null
