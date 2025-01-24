@@ -1,7 +1,7 @@
 #!/bin/sh
 #Autor: Henry Chumo 
 #Alias : ChumoGH
-source <(curl -sL https://raw.githubusercontent.com/NetVPS/Multi-Script/main/ChuGH-5.7u/Otros/msg)
+source <(curl -sL https://raw.githubusercontent.com/Dark-Wap/MultiScript-VPS/refs/heads/main/ChuGH-5.7u/Otros/msg)
 rootpass () {
 clear
 [[ "$(whoami)" != "root" ]] && {
